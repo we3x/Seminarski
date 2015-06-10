@@ -1,0 +1,5 @@
+new_board(var Table) - Kreira praznu tablu
+legal_moves(Table) - Kreira skup dozvoljenih poteza
+winner(Table) - Odredjuje pobednika igre
+move(Table, shape) - Prosledjuje se oblik igraca i potez koji on zeli da odigra
+
