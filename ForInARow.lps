@@ -3,24 +3,29 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="3">
+    <Units Count="8">
       <Unit0>
         <Filename Value="ForInARow.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="ForInARow"/>
-        <UsageCount Value="20"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="4" Y="20"/>
+        <UsageCount Value="66"/>
       </Unit0>
       <Unit1>
         <Filename Value="formunit.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="FormUnit"/>
-        <EditorIndex Value="0"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="164"/>
+        <CursorPos X="32" Y="191"/>
+        <UsageCount Value="66"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -28,63 +33,81 @@
         <Filename Value="ttableunit.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="TTableUnit"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="14"/>
-        <CursorPos X="27" Y="14"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
+        <TopLine Value="13"/>
+        <CursorPos X="1" Y="10"/>
+        <UsageCount Value="66"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="35"/>
+        <CursorPos X="73" Y="47"/>
+        <UsageCount Value="55"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="unit2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit2"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="32"/>
+        <CursorPos X="3" Y="66"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="formunit.lfm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="105" Y="10"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="ForInARow.lps"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="/usr/lib/lazarus/1.2.4/lcl/include/customform.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2043"/>
+        <CursorPos X="1" Y="2063"/>
+        <UsageCount Value="12"/>
+      </Unit7>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="11" HistoryIndex="10">
+    <JumpHistory Count="3" HistoryIndex="2">
       <Position1>
         <Filename Value="formunit.pas"/>
-        <Caret Line="1" Column="1" TopLine="1"/>
+        <Caret Line="249" Column="38" TopLine="215"/>
       </Position1>
       <Position2>
-        <Filename Value="ttableunit.pas"/>
-        <Caret Line="22" Column="20" TopLine="9"/>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="12" Column="95" TopLine="1"/>
       </Position2>
       <Position3>
-        <Filename Value="ttableunit.pas"/>
-        <Caret Line="42" Column="3" TopLine="14"/>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="41" Column="92" TopLine="26"/>
       </Position3>
-      <Position4>
-        <Filename Value="ttableunit.pas"/>
-        <Caret Line="21" Column="17" TopLine="1"/>
-      </Position4>
-      <Position5>
-        <Filename Value="ttableunit.pas"/>
-        <Caret Line="28" Column="45" TopLine="10"/>
-      </Position5>
-      <Position6>
-        <Filename Value="ttableunit.pas"/>
-        <Caret Line="21" Column="17" TopLine="1"/>
-      </Position6>
-      <Position7>
-        <Filename Value="ttableunit.pas"/>
-        <Caret Line="29" Column="3" TopLine="8"/>
-      </Position7>
-      <Position8>
-        <Filename Value="ttableunit.pas"/>
-        <Caret Line="25" Column="20" TopLine="4"/>
-      </Position8>
-      <Position9>
-        <Filename Value="ttableunit.pas"/>
-        <Caret Line="33" Column="15" TopLine="4"/>
-      </Position9>
-      <Position10>
-        <Filename Value="ttableunit.pas"/>
-        <Caret Line="36" Column="17" TopLine="4"/>
-      </Position10>
-      <Position11>
-        <Filename Value="ttableunit.pas"/>
-        <Caret Line="31" Column="27" TopLine="4"/>
-      </Position11>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>

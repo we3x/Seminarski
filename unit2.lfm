@@ -1,0 +1,148 @@
+object Form3: TForm3
+  Left = 575
+  Height = 276
+  Top = 194
+  Width = 468
+  Caption = 'Properties'
+  ClientHeight = 276
+  ClientWidth = 468
+  OnCreate = FormCreate
+  LCLVersion = '1.2.4.0'
+  object Label1: TLabel
+    Left = 40
+    Height = 21
+    Top = 40
+    Width = 171
+    Caption = 'Name of first player:'
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 21
+    Top = 96
+    Width = 205
+    Caption = 'Name of second player:'
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 51
+    Height = 21
+    Top = 160
+    Width = 160
+    Caption = 'Color of first player'
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 19
+    Height = 21
+    Top = 224
+    Width = 194
+    Caption = 'Color of second player'
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 264
+    Height = 25
+    Top = 36
+    Width = 80
+    TabOrder = 0
+    Text = 'Player1'
+  end
+  object Edit2: TEdit
+    Left = 264
+    Height = 25
+    Top = 92
+    Width = 80
+    TabOrder = 1
+    Text = 'Player2'
+  end
+  object Button1: TButton
+    Left = 376
+    Height = 25
+    Top = 231
+    Width = 75
+    Caption = 'Okej'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 256
+    Height = 25
+    Top = 160
+    Width = 75
+    Color = clRed
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 256
+    Height = 25
+    Top = 220
+    Width = 75
+    Color = clBlue
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+  object ColorDialog1: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    left = 344
+    top = 152
+  end
+  object ColorDialog2: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    left = 408
+    top = 152
+  end
+end

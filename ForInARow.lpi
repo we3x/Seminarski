@@ -32,7 +32,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="3">
+    <Units Count="5">
       <Unit0>
         <Filename Value="ForInARow.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -42,6 +42,7 @@
         <Filename Value="formunit.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="FormUnit"/>
       </Unit1>
@@ -50,6 +51,22 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="TTableUnit"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="unit2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit2"/>
+      </Unit4>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
